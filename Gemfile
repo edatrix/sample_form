@@ -18,3 +18,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'capybara'
 end
+
+group :test do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
